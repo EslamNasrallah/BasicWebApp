@@ -10,6 +10,7 @@ It’s a Java / Gradle project.
 
 Run the main() method in ServerApplication. You should see the app running at http://localhost:8080.
 
+
 #### Push a change to trigger GitHub Actions
 The repository contains a .github directory that configures a GitHub Actions build pipeline.
 The file .github/workflows/build.yml configures the build and deploy pipeline.

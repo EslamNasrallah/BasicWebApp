@@ -13,8 +13,8 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
            return "Eslam";
-        } else if(query.contains("banana")) { // TODO extend the programm here
-            return "yellow";
+        } else if(query.contains("which of the following numbers are primes: 340, 251")) { // TODO extend the programm here
+            return "251";
         }
         return "";
     }

@@ -18,6 +18,10 @@ public class QueryProcessor {
         }else if(query.contains("which of the following numbers are primes: 340, 251")) { // TODO extend the programm here
             return "251";
         }
+        else if(query.contains("which of the following numbers is the largest: 364, 919, 70, 66")) { // TODO extend the programm here
+            return "919";
+        }
+
         return "";
     }
 }

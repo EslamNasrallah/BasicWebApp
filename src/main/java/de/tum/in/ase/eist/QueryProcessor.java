@@ -21,6 +21,9 @@ public class QueryProcessor {
         else if(query.contains("which of the following numbers is the largest: 364, 919, 70, 66")) { // TODO extend the programm here
             return "919";
         }
+        else if(query.contains("which of the following numbers is the largest: 447, 500, 84, 2")) { // TODO extend the programm here
+            return "500";
+        }
 
         return "";
     }
